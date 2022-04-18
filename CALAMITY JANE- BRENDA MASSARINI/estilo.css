@@ -130,11 +130,70 @@ footer {
     margin: 5px;
     padding: 10px;
 }
-.remeras{
-    background-color: darkslategray;
-    display: flex;
-    flex-direction: row;
-   
+
+.rem1{
+    opacity: 0.9;
+}
+
+.rem1:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem2{
+    opacity: 0.9;
+}
+
+.rem2:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem3{
+    opacity: 0.9;
+}
+
+.rem3:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem4{
+    opacity: 0.9;
+}
+
+.rem4:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem5{
+    opacity: 0.9;
+}
+
+.rem5:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem6{
+    opacity: 0.9;
+}
+
+.rem6:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem7{
+    opacity: 0.9;
+}
+
+.rem7:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.rem8{
+    opacity: 0.9;
+}
+
+.rem8:hover{
+    transform: scale(1.1, 1.1);
+    opacity: 1;
 }
 
 @media only screen and (min-width:600px){
