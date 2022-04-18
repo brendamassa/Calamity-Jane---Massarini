@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Teko', sans-serif;
+    background-color: black;
+}   
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+.logo{
+    grid-area: logo;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    justify-self: center;
+    align-self: center;
+}
+.imglogo{
+    width: 100px;
+}
+.menu{
+    grid-area: menu;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    opacity: 90%;
+    justify-self: stretch;
+    align-self: center;
+      
+}
+.menuu{
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    word-spacing: 20px;   
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    
+     
+}
+.menuu li{    
+    text-align: center;
+    margin: 10px;
+    padding: 5px;      
+}
+.menuu li:hover{
+    background-color: darkslategray;
+}
+.menuu li a {
+    text-decoration: none;
+    color: #e8dbfc;    
+}
+main{
+    font-family: 'Ubuntu', sans-serif;
+}  
+.fotos{
+    grid-area: fotos;
+    background-color: darkslategray;
+    width: 90%;
+    display: flex;
+    flex-direction: row;   
+}
+.seguim{
+        
+    grid-area: seguim;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    border: 5px;
+    color: whitesmoke;
+    text-align: center;
+}
+.seguim a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.video{
+    grid-area: video;
+    font-family: 'Ubuntu', sans-serif;
+    justify-self:center;
+    
+}
+.pedido{
+    grid-area: pedido;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+
+} 
+.info1{
+    grid-area: info1;
+    background-color: black;
+    color: #e8dbfc;
+    text-align: center;
+}
+.info2{
+    grid-area: info2;
+    background-color: black;
+    color: #e8dbfc;
+    text-align: center;
+}
+
+footer {
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+.ig {
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+}
+.formulario{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+.remeras{
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+@media only screen and (min-width:600px){
+    .contenedor1{
+        display: grid;
+        
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-rows: 1fr 3fr 1,5fr 2fr 2fr;
+        gap: 10px;
+        grid-template-areas:
+         "logo menu menu menu"
+         "fotos fotos fotos fotos"
+         "seguim seguim seguim seguim"
+         "video video video pedido"
+         "info1 info1 info2 info2"
+    }
+    .fotos img{
+        width: 25vw;
+        
+    }
+    .contenedor2{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-rows: 1fr 3fr 3fr;
+        gap: 10px;
+        grid-template-areas:
+         "logo menu menu menu"
+         "rem1 rem2 rem3 rem4"
+         "rem5 rem6 rem7 rem8"
+    }
+    .rem1{
+        grid-area: rem1;
+        width: 25vw;
+    }
+    .rem2{
+        grid-area: rem2;
+        width: 25vw;
+    }
+    .rem3{
+        grid-area: rem3;
+        width: 25vw;
+    }
+    .rem4{
+        grid-area: rem4;
+        width: 25vw;
+    }
+    .rem5{
+        grid-area: rem5;
+        width: 25vw;
+    }
+    .rem6{
+        grid-area: rem6;
+        width: 25vw;
+    }
+    .rem7{
+        grid-area: rem7;
+        width: 25vw;
+    }
+    .rem8{
+        grid-area: rem8;
+        width: 25vw;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    .contenedor1{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-rows: 1fr 3fr 1,5fr 2fr 1fr 2fr 2fr;
+        gap: 10px;
+        grid-template-areas:
+         "logo menu menu menu"
+         "fotos fotos fotos fotos"
+         "seguim seguim seguim seguim"
+         "video video video video"
+         "pedido pedido pedido pedido"
+         "info1 info1 info1 info1"
+         "info2 info2 info2 info2"
+    }
+    .contenedor2{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-template-rows: 1fr 3fr 3fr 3fr 3fr;
+        gap: 10px;
+        grid-template-areas:
+         "logo menu menu menu"
+         "rem1 rem1 rem2 rem2"
+         "rem3 rem3 rem4 rem4"
+         "rem5 rem5 rem6 rem6"
+         "rem7 rem7 rem8 rem8"
+    }
+    .fotos img{
+        width: 50vw;
+    }
+    .rem1{
+        grid-area: rem1;
+        width: 50vw;
+    }
+    .rem2{
+        grid-area: rem2;
+        width: 50vw;
+    }
+    .rem3{
+        grid-area: rem3;
+        width: 50vw;
+    }
+    .rem4{
+        grid-area: rem4;
+        width: 50vw;
+    }
+    .rem5{
+        grid-area: rem5;
+        width: 50vw;
+    }
+    .rem6{
+        grid-area: rem6;
+        width: 50vw;
+    }
+    .rem7{
+        grid-area: rem7;
+        width: 50vw;
+    }
+    .rem8{
+        grid-area: rem8;
+        width: 50vw;
+    }
+
+}
