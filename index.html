@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko&family=Ubuntu&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="./MEDIA/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="estilo.css">
 
     <title>CALAMITY JANE</title>
 </head>
 <body>
     <header>
-        <h1>CALAMITY JANE STORE</h1>
+        <h1 class="wow animate__animated animate__pulse">CALAMITY JANE STORE</h1>
     </header>
     <main>
         <section class="contenedor1">
@@ -30,7 +31,7 @@
                 </ul>
             </nav>
             
-            <div class="fotos">
+            <div class="fotos animate__animated animate__fadeIn">
                 <img class="foto1" src="./MEDIA/men.jpg" alt="foto">
                 <img class="foto1" src="./MEDIA/rolling.jpg" alt="foto">
                 <img class="foto2" src="./MEDIA/women.jpg" alt="foto">
@@ -45,7 +46,7 @@
                     <a class="correo" href="https://www.correoargentino.com.ar/seguimiento-de-envios" target="_blank">Seguimiento</a>
                 </div>
             </section>
-            <section class="video">
+            <section class="wow video animate__animated animate__fadeInLeft">
                 <h3>Video Semanal recomendado</h3>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/_8YRx47oylM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
@@ -66,6 +67,10 @@
             <a class="ig" href="https://www.instagram.com/calamityjane.store/" target="_blank">Ir a nuestro Ig</a>
             <h4>calamityjanearg@gmail.com</h4>    
     </footer>
-    
+
+    <script src="/MEDIA/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

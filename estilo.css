@@ -133,6 +133,7 @@ footer {
 
 .rem1{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem1:hover{
@@ -141,6 +142,7 @@ footer {
 }
 .rem2{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem2:hover{
@@ -149,6 +151,7 @@ footer {
 }
 .rem3{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem3:hover{
@@ -157,6 +160,7 @@ footer {
 }
 .rem4{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem4:hover{
@@ -165,6 +169,7 @@ footer {
 }
 .rem5{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem5:hover{
@@ -173,6 +178,7 @@ footer {
 }
 .rem6{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem6:hover{
@@ -181,6 +187,7 @@ footer {
 }
 .rem7{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem7:hover{
@@ -189,6 +196,7 @@ footer {
 }
 .rem8{
     opacity: 0.9;
+    transition: all 2s;
 }
 
 .rem8:hover{
